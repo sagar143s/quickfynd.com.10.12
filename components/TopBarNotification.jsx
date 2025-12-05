@@ -85,10 +85,7 @@ const TopBarNotification = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white py-1.5 px-4 relative overflow-hidden">
-        {/* Animated background effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
-        
+      <div className="bg-black text-white py-1.5 px-4 relative overflow-hidden">
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 text-xs md:text-sm relative z-10">
           {/* Icon Badge */}
           <span className="bg-white/20 backdrop-blur-sm rounded-full px-2 py-0.5 flex items-center gap-1 font-bold">

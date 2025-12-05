@@ -241,7 +241,7 @@ const Navbar = () => {
     <>
       {/* Mobile-Only Simple Navbar for Non-Home Pages */}
       {!isHomePage && (
-        <nav className="lg:hidden sticky top-0 z-50 bg-white shadow-sm">
+        <nav className="lg:hidden sticky top-0 z-50 shadow-sm" style={{ backgroundColor: '#2874f0' }}>
           <div className="flex items-center gap-3 px-4 py-3">
             {/* Back Button */}
             <button 
